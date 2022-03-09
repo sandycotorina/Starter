@@ -41,6 +41,8 @@ export function onLayoutTypeChange(layoutType) {
   }
 }
 
+
+
 export function switchLanguage(locale) {
   return (dispatch) => {
     dispatch({

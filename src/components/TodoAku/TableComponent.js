@@ -26,7 +26,7 @@ const columns = [
       dataIndex: "id",
       key: "id",
       fixed: "right",
-      width: 100,
+      width: 256,
       render: (rows, record) => [
           <Space split={<Divider type="vertical" />} size="middle">
               {/* DONE CHECKBOX */}
